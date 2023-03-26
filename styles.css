@@ -14,6 +14,11 @@ body {
   width: 720px;
 }
 
+@font-face {
+  font-family: Balgruf;
+  src: url(./balgruf-font/Balgruf-JRye7.ttf);
+}
+
 #hero {
   display: flex;
   flex-direction: column;
@@ -22,7 +27,7 @@ body {
   background-size: cover;
   height: 340px;
   margin: 20px auto 0;
-  font-family: "Expletus Sans", cursive;
+  font-family: Balgruf;
   color: white;
   font-weight: 700;
   font-size: larger;
