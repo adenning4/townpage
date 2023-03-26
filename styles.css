@@ -92,4 +92,39 @@ body {
   background: #d1dfe3;
   height: 400px;
   margin: 0 auto 20px;
+  padding: 40px;
+}
+
+#guideCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background: #9eb1b1;
+  width: 450px;
+  height: 300px;
+  margin: 0 auto;
+  border-radius: 20px;
+  border-bottom: 4px solid #8f957d;
+}
+
+#guideImage {
+  height: 230px;
+  margin: auto 10px;
+  border-radius: 10px;
+}
+
+.guideText {
+  margin: 10px 22px 0 0;
+}
+
+#guideDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#guideQuote {
+  font-style: italic;
 }
