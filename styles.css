@@ -6,6 +6,7 @@
 
 body {
   text-align: center;
+  font-family: Balgruf;
 }
 
 #hero,
@@ -27,9 +28,7 @@ body {
   background-size: cover;
   height: 340px;
   margin: 20px auto 0;
-  font-family: Balgruf;
   color: white;
-  font-weight: 700;
   font-size: larger;
   text-shadow: 0 0 8px black;
   padding-top: 20px;
@@ -49,6 +48,14 @@ body {
   background: #dcedf2;
   height: 380px;
   margin: 0 auto;
+}
+
+#infoTitle {
+  padding-top: 20px;
+}
+
+#activitiesContiner {
+  display: flex;
 }
 
 #guide {
